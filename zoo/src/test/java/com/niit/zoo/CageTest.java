@@ -1,5 +1,6 @@
 package com.niit.zoo;
 
+import com.niit.zoo.animals.Cage;
 import com.niit.zoo.animals.Hyena;
 import com.niit.zoo.animals.Lion;
 import com.niit.zoo.food.Meat;
@@ -12,6 +13,11 @@ import static org.junit.Assert.*;
  * Created by Михаил Чугунов on 22.09.2016.
  */
 public class CageTest {
+
+    @Before
+    public void setUp() {
+
+    }
 
     @Test
     public void testPutAnimal() throws Exception {
